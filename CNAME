@@ -1,0 +1,41 @@
+# Ignore system files and editor metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon\r
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node.js dependencies (if ever used)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional build folders
+dist/
+build/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows image file caches
+Desktop.ini
+$RECYCLE.BIN/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# GitHub Pages
+.sitemap

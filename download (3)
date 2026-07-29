@@ -1,0 +1,13 @@
+# Normalize line endings and mark text files
+* text=auto
+*.html text
+*.css text
+*.js text
+*.md text
+*.yml text
+
+# Prevent Git from treating binary files as text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
